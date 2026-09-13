@@ -1,0 +1,5 @@
+Component: main
+Origin: linux-onboarding
+Label: linux-onboarding
+Architecture: amd64
+Description: Apt repository for linux-onboarding

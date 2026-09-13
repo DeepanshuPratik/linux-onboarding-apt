@@ -1,0 +1,2 @@
+# reprepro's local bookkeeping database — not needed by apt clients, regenerable
+db/

@@ -1,0 +1,27 @@
+Package: linux-onboarding
+Version: 1.12.1-1
+Architecture: amd64
+Maintainer: Deepanshu Pratik <deepanshu.pratik@gmail.com>
+Installed-Size: 511
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.50.0), libgtk-3-0t64 (>= 3.19.12), libgtk-layer-shell0 (>= 0.6.0), libhandy-1-0 (>= 1.3.90), libjson-glib-1.0-0 (>= 1.5.2), libwebkit2gtk-4.1-0 (>= 2.15.1)
+Recommends: ydotool, xdotool
+Homepage: https://github.com/DeepanshuPratik/Regolith_Onboarding
+Priority: optional
+Section: gnome
+Filename: pool/main/l/linux-onboarding/linux-onboarding_1.12.1-1_amd64.deb
+Size: 267422
+SHA256: c7e8e79e95e18fb5ee8dc47ae1ce87ab8a52b051ae110c56025736c38bf396a4
+SHA1: e4728c105c5f2098e5621c60e994be75a0c8ed6b
+MD5sum: c8374fc5c27f40c050ee3e0b2ed60fca
+Description: First-run onboarding tool for Linux desktops
+ A first-run onboarding tool for Linux distributions: a welcome page, a
+ few featured slides, and a set of interactive workflows that teach
+ keyboard shortcuts by having the user actually press them.
+ .
+ This package is brand-agnostic: it installs no distro identity of its
+ own. A distro or desktop's branding (logo, theme, slides, workflows) is
+ shipped as a separate add-on package that depends on this one and drops
+ its files under /usr/share/linux-onboarding/branding/<name>/, with
+ /etc/linux-onboarding/branding naming which one is active. See
+ /usr/share/doc/linux-onboarding/DISTRO-GUIDE.md.
+

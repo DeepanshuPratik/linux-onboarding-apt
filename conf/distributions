@@ -1,0 +1,7 @@
+Origin: linux-onboarding
+Label: linux-onboarding
+Codename: noble
+Architectures: amd64
+Components: main
+Description: Apt repository for linux-onboarding
+SignWith: 8297A365D60256237C3F6DFB6DA9DD170F8778E9
