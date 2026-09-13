@@ -25,3 +25,29 @@ Description: First-run onboarding tool for Linux desktops
  /etc/linux-onboarding/branding naming which one is active. See
  /usr/share/doc/linux-onboarding/DISTRO-GUIDE.md.
 
+Package: regolith-onboarding
+Version: 1.0-1
+Architecture: all
+Maintainer: Deepanshu Pratik <deepanshu.pratik@gmail.com>
+Installed-Size: 419
+Depends: linux-onboarding (>= 1.12.1), hicolor-icon-theme
+Homepage: https://github.com/DeepanshuPratik/Regolith_Onboarding
+Priority: optional
+Section: gnome
+Filename: pool/main/r/regolith-onboarding/regolith-onboarding_1.0-1_all.deb
+Size: 307406
+SHA256: f3b810052ee576dc120ac4190c35f264548387f3f6d47cb0e660996516219d52
+SHA1: 235349ec759db5c8522746fa168604ee1925f3cf
+MD5sum: 6731f6cc9d02703ee398bcfcf1598efa
+Description: Regolith Linux branding for linux-onboarding
+ Regolith Linux's welcome page, colour theme, featured slides and
+ keyboard-shortcut practice workflows for linux-onboarding, the
+ first-run onboarding tool.
+ .
+ Installing this package makes Regolith the active branding: on next
+ launch, linux-onboarding shows Regolith's welcome page, theme and
+ practice workflows instead of running unbranded. This is a reference
+ implementation of the branding-package contract documented in
+ linux-onboarding's docs/DISTRO-GUIDE.md, meant as a template other
+ distros and desktops can copy.
+
