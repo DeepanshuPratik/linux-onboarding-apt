@@ -22,9 +22,12 @@ echo "deb [signed-by=/etc/apt/keyrings/linux-onboarding-archive-keyring.gpg] htt
     | sudo tee /etc/apt/sources.list.d/linux-onboarding.list > /dev/null
 
 sudo apt-get update
+
+# Unbranded base app only:
 sudo apt-get install linux-onboarding
 
-# Optional: Regolith Linux's own branding
+# Regolith Linux, fully branded — pulls in linux-onboarding automatically
+# via regolith-onboarding's own Depends:, no need to name both:
 sudo apt-get install regolith-onboarding
 ```
 
